@@ -1,0 +1,70 @@
+/* Titile Product */
+.titleLastest {
+    font-family: fantasy !important;
+    font-size: 46px !important;
+    text-align: center !important;
+    
+}
+/* mốc */
+.Effect {
+    position: relative; 
+    box-shadow: 1px 1px 14px 0px black !important;
+    border-radius: 40px !important;
+    
+}
+
+/* Trạng thái ban đầu CARD */
+.shadowEffect {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+
+/* Trạng thái ban đầu Button chi tiết */
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Trạng thái sau khi hover lên CARD */
+.Effect:hover .shadowEffect {
+    opacity: 0.3;
+}
+/* Dùng mốc hover lên chi tiết */
+.Effect:hover .middle {
+    opacity: 1;  
+}
+/* Backgroupp */
+.bg{
+     background-image: linear-gradient(to right top, #348de7, #9745d5, #fcb585);
+;
+    
+}
+
+/* Hover Nut add to cart */
+.buttonAddToCard{
+    background-color: rgb(253, 255, 255) !important ;
+}
+.buttonAddToCard:hover {
+    background-color: pink !important;
+}
+.iconAddToCard{
+    color: black;
+}
+.iconAddToCard:hover{
+    color: white ;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+.slick-prev:before {
+    content: '⤾';
+    color: black;
+    font-size: xx-large;
+}
+.slick-next:before {
+    content: '⤿';
+    color: black;
+    font-size: xx-large;
+}
+
+.slider_1 {
+    display: flex !important;
+    justify-content: center;
+}

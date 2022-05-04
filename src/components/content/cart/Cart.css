@@ -1,0 +1,32 @@
+
+.cart_icon {
+    display: flex;
+    justify-content: space-between;
+}
+.cart_container {
+    background: '#d9f5ff';
+
+}
+.cart__container {
+    background:#d9f5ff;
+    padding: 38px;
+    margin: 60px
+ }
+ 
+@media only screen and (max-width: 767px) {
+    .cart__container {
+       background-color: #d9f5ff;
+
+    }
+    .cart_icon {
+        display: grid !important;
+    }
+
+    .cart_text {
+        white-space: nowrap !important;
+    }
+    .cart_button {
+        text-align: center !important;
+    }
+    
+}

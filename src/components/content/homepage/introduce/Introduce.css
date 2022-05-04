@@ -1,0 +1,125 @@
+@keyframes vocal {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: 90px;
+        top: 0px;
+    }
+
+}
+
+@keyframes vocal_1 {
+    0% {
+        left: 320px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.introduce_ {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.introduce_first-1 {
+    padding: 50px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 40px -5px black;
+    background-color: aqua;
+    background-image: linear-gradient(to right top, #f5c8cd, #ffffff, white, white);
+    width: auto;
+    border-bottom-left-radius: 110px;
+    height: auto;
+    position: relative;
+    animation-name: vocal;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-iteration-count: 2;
+}
+
+.introduce_first-2 {
+    padding: 50px;
+    width: auto;
+    height: auto;
+    position: relative;
+    animation-name: vocal_1;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-iteration-count: 2;
+}
+
+.introduce_text {
+    font-family: Monospace;
+    font-style: italic;
+}
+
+.introduce_second-text {
+    font-size: initial;
+    font-family: cursive !important;
+    color: white;
+}
+
+@keyframes vocal_second {
+    0% {
+        left: 0px;
+        top: -80px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.introduce_second-1 {
+    position: relative;
+    animation-name: vocal_second;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.introduce_second-2 {
+    position: relative;
+    animation-name: vocal_second;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.introduce_second-3 {
+    position: relative;
+    animation-name: vocal_second;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@media (max-width: 900px)  {
+    /* .introduce_first-1 {
+        display: none;
+    }
+    .introduce_first-2 {
+        display: none;
+    }
+    .introduce_second-3 {
+        width: 250;
+    } */
+    .bg_introduce {
+        display: none !important;
+    }
+}
+
+.bg_introduce {
+    background-image: linear-gradient(to right top, #348de7, #9745d5, #fcb585);
+    height: auto;
+}
